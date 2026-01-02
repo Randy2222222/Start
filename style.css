@@ -69,9 +69,10 @@ header h1 {
   color: #000;
   border: 1px solid #555;
   border-radius: 5px;
-  padding: 6px;
+  padding: 20px;
   margin-top: 4px;
   margin-bottom: 4px;
+  align: center;
 }
 
 #pdfStatus {
