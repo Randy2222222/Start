@@ -41,7 +41,8 @@ header h1 {
 /* Create Racing Form Button (spacing) */
 #runCreate {
   display: block;
-  margin: 2px auto 0 auto;  /* centers button + small gap above */
+  align: center;
+  margin: 5px auto 5px auto;  /* centers button + small gap above */
 }
 
 #results {
