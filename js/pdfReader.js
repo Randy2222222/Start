@@ -118,7 +118,7 @@ if (window.parseHorseBlockFull && window._pdfReader.parsedPP) {
  
  // Attach Button Create and Funtion to Run it
  function attachRunButton() {
-   const runBtn = document.getElementById("runAnalysis");
+   const runBtn = document.getElementById("runCreate");
    if (!runBtn) return;
    runBtn.removeEventListener("click", runCreate);
    runBtn.addEventListener("click", runCreate);
