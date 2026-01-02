@@ -82,7 +82,7 @@ header h1 {
 
 /* Output area */
 #program-output {
-  padding: 20px;
+  padding: 5px;
 }
 
 /* Compact call-time table */
@@ -130,4 +130,5 @@ header h1 {
   margin: 10px 0;
   background: #000;
   border-radius: 6px;
+  text-align: center;
 }
