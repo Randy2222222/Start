@@ -1,5 +1,3 @@
-// style.css
-
 /* Base page settings */
 html, body {
   margin: 0;
@@ -14,10 +12,10 @@ html, body {
 header {
   background-color: #004aad;
   color: #fff;
+  text-align: center;
   padding: 0.3em 0;      /* thin height */
   margin: 0;
-  line-height: 1;   
-  text-align: center;/* tighten blue bar */
+  line-height: 1;        /* tighten blue bar */
 }
 
 header h1 {
@@ -30,7 +28,7 @@ header h1 {
 /* PDF Upload box (right below header) */
 #pdf-upload {
   background-color: #111;
-  border: 5px solid #333;
+  border: 1px solid #333;
   border-radius: 6px;
   padding: 2px 0 8px 0;
   margin: 5px auto 8px auto;   /* tiny space under header */
@@ -41,7 +39,7 @@ header h1 {
 /* Create Racing Form Button (spacing) */
 #runCreate {
   display: block;
-  margin: 25px auto 10px auto;  /* centers button + small gap above */
+  margin: 2px auto 0 auto;  /* centers button + small gap above */
 }
 
 #results {
@@ -64,11 +62,11 @@ header h1 {
 }
 
 #pdf-upload input[type="file"] {
-  background-color: #fff;
-  color: #000;
+  background-color: #222;
+  color: #fff;
   border: 1px solid #555;
   border-radius: 5px;
-  padding: 4px;
+  padding: 6px;
   margin-top: 4px;
   margin-bottom: 4px;
 }
@@ -82,7 +80,7 @@ header h1 {
 
 /* Output area */
 #program-output {
-  padding: 5px;
+  padding: 20px;
 }
 
 /* Compact call-time table */
@@ -128,7 +126,6 @@ header h1 {
   border: 1px solid #444;
   padding: 8px;
   margin: 10px 0;
-  background: #000;
+  background: #1a1a1a;
   border-radius: 6px;
-  text-align: center;
 }
