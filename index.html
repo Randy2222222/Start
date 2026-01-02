@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js"></script>
+<!-- change name from Horse Race Analyzer to Create Horse Racing Form -->
+  <title>Create Horse Racing Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Blue Header -->
+  <header>
+    <h1>Create Horse Racing Form</h1>
+  </header>
+
+  <!-- Upload + Run Box (Matches your CSS exactly) -->
+  <div id="pdf-upload">
+    <h2>Brisnet PDF</h2>
+
+    <!-- Optional file upload (Analyzer still loads from GitHub automatically) -->
+    <input type="file" id="pdfFile">
+       <!--Ready – click Create was click – Run Analysis-->
+    <p id="pdfStatus">Ready — click Create.</p>
+
+    <!-- Run Button was Run Analysis now Run Create -->
+    <button id="runAnalysis">Run Create</button>
+    <!--adding text extract code for test one line of code 
+    <button id="showText">Show Extracted Text</button> -->
+  </div>
+
+  <!-- Program Output Area -->
+  <div id="program-output">
+    <pre id="output"></pre>
+  </div>
+
+  <!-- Your JS Files -->
+  <!--<script src="js/pdfReader.js"></script>-->
+  <script src="js/parser.js"></script>
+  <script src="js/pdfReader.js"></script>
+  <!--<script src="js/formatter.js"></script>-->
+  
+ <!-- <script src="js/horseGraph.js"></script>
+  <script src="js/jockeyLoader.js"></script>
+  <script src="js/calls.js"></script>
+ <!-- <script src="js/analyzer.js"></script> -->
+
+</body>
+</html>
